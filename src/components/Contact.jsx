@@ -31,11 +31,11 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen px-6 py-24 scroll-mt-10 md:px-16 lg:px-32 xl:px-48"
+      className="min-h-screen px-6 py-12 scroll-mt-24 md:px-16 lg:px-32 xl:px-48 "
     >
       {/* Heading */}
-      <div className="mb-16">
-        <h2 className="text-4xl font-semibold tracking-wide text-[#bf5a3d] md:text-5xl">
+      <div className="mb-10">
+        <h2 className="text-4xl py-6 font-semibold tracking-wide text-[#bf5a3d] md:text-5xl">
           Let's talk about your project
         </h2>
       </div>
@@ -55,7 +55,7 @@ const Contact = () => {
     <input
       id="name"
       type="text"
-      placeholder="Your name"
+      placeholder="Hiren Siyodia"
       className="w-full border-b border-gray-400 bg-transparent px-0 py-3 outline-none focus:border-[#bf5a3d]"
     />
   </div>
@@ -72,7 +72,7 @@ const Contact = () => {
     <input
       id="phone"
       type="tel"
-      placeholder="Your phone number"
+      placeholder="+91 98765 43210"
       className="w-full border-b border-gray-400 bg-transparent px-0 py-3 outline-none focus:border-[#bf5a3d]"
     />
   </div>
@@ -88,7 +88,7 @@ const Contact = () => {
 </form>
 
       {/* Bottom Section */}
-      <div className="mt-24 grid grid-cols-1 gap-12 border-t border-gray-300 pt-16 md:grid-cols-3 md:gap-8">
+      <div className="mt-20 grid grid-cols-1 gap-12 border-t border-gray-300 pt-16 md:grid-cols-3 md:gap-8">
         {/* Brand */}
         <div>
           <div className="leading-none">
@@ -149,7 +149,7 @@ const Contact = () => {
             >
               <FaEnvelope className="text-lg" />
 
-              <span>siyodiahiren7@gmail.com</span>
+              <span>aestheticainterior@gmail.com</span>
             </a>
 
             {/* Phone */}
@@ -159,7 +159,7 @@ const Contact = () => {
             >
               <FaPhone className="text-sm" />
 
-              <span>+91 98199 13272</span>
+              <span>+91 98765 43210</span>
             </a>
 
             {/* CTA */}
@@ -173,7 +173,13 @@ const Contact = () => {
             </a>
           </div>
         </div>
+        
       </div>
+      <div className="mt-16 pt-6 border-t border-gray-200 text-center">
+  <p className="text-sm text-gray-500">
+    © 2026 All rights reserved. Designed & Built by Hiren Nanubhai Siyodia.
+  </p>
+</div>
     </section>
   );
 };
